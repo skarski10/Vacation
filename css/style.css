@@ -22,10 +22,45 @@ body {
 }
 
 .jumbotron {
-  background-color: red;
+  background-color: green;
   text-align: center;
 }
 .row {
   padding: 8px;
   back
+}
+
+.btn-primary.active {
+  color: red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.col-md-4 {
+  border: solid black 2px;
+}
+
+#navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#navbar ul li {
+  display: inline;
+}
+#navbar ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #FDFEFE;
+  background-color: #990000;
+}
+#navbar ul li a:hover {
+  color: #17202A;
+  background-color: #ff8566;
 }
