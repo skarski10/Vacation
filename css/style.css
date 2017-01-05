@@ -16,3 +16,16 @@ h5 {
   text-decoration: underline;
   font-weight: bolder;
 }
+
+body {
+  background-image: url(../img/background.png);
+}
+
+.jumbotron {
+  background-color: red;
+  text-align: center;
+}
+.row {
+  padding: 8px;
+  back
+}
